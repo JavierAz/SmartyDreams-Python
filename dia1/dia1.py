@@ -2,7 +2,7 @@ print("Me encanta estudiar python")
 
 print("Estudiar con 'Python total' es super divertido")
 
-print(321+234)
+print(321 + 234)
 
 print(f'Linea 1\nLinea 2\nLinea 3')
 
