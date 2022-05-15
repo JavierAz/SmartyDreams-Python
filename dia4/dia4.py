@@ -1,3 +1,5 @@
+from random import *
+
 seleccion = int(input('Numero de practica [1-25]'))
 
 if seleccion == 1:
@@ -153,3 +155,67 @@ elif seleccion == 20:
 
     combinados = list(zip(capitales, paises))
     print(f'{combinados[0]} es la capital de {combinados[1]}')
+
+elif seleccion == 21:
+    marcas = ['HP', 'Dell', 'Google', 'Apple']
+    productos = ['Zen', 'XPS', 'Chomebook', 'iMac']
+
+    mi_zip = list(zip(marcas, productos))
+
+elif seleccion == 22:
+    esp = ['uno', 'dos', 'tres']
+    por = ['um', 'dois', 'tres']
+    en = ['one', 'two', 'three']
+
+    numeros = list(zip(esp, por, en))
+    print(numeros)
+
+elif seleccion == 23:
+    numeros = [44542247 / 2, 21310 / 5, 2134747 * 33, 44556475, 121676, 6654067, 353254, 123134, 55 ** 12, 611 ** 5]
+
+    maxi = max(numeros)
+    print(maxi)
+
+elif seleccion == 24:
+    numeros = [44542247, 21310, 2134747, 44556475, 121676, 6654067, 353254, 123134, 552512, 611665]
+
+    rango = max(numeros) - min(numeros)
+    print(rango)
+
+elif seleccion == 25:
+    diccionario_edades = {"Carlos": 55, "María": 42, "Mabel": 78, "José": 44, "Lucas": 24, "Rocío": 35, "Sebastián": 19,
+                          "Catalina": 2, "Darío": 49}
+
+    edadMinima = min(diccionario_edades.values())
+    ultimo = max(diccionario_edades.keys())
+    print(f'el menor es {edadMinima} el ultimo es {ultimo}')
+
+elif seleccion == 26:
+    ran = randint(1, 10)
+    print(ran)
+
+elif seleccion == 27:
+    ran = random()
+    print(ran)
+
+elif seleccion == 28:
+    nombres = ["Javier", "Juan", "Alo", "Laura", "Lola"]
+
+    sorteo = choice(nombres)
+    print(sorteo)
+
+elif seleccion == 29:
+    val = [1, 4, 7, 9, 3, 5]
+    cuadrados = [i ** 2 for i in val]
+    print(cuadrados)
+
+elif seleccion == 30:
+    val = [1, 4, 7, 9, 3, 5]
+    pares = [i for i in val if i % 2 == 0]
+    print(pares)
+
+elif seleccion == 31:
+    far = [32, 275, 212]
+    cel = [(tem - 32) * (5 / 9) for tem in far]
+
+    print(f'{far}farenheit = {cel} celsius')
