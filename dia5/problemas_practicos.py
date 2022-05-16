@@ -1,6 +1,5 @@
 seleccion = int(input('Numero de solucion [1-25]'))
 
-
 def devolverDistintos(x, y, z):
     sum = x + y + z
     lis = [x, y, z]
