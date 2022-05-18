@@ -32,7 +32,7 @@ def dar_alta():
     cl_apellido = input('Su apellido: ')
     cl_numero = input('Su numero de cuenta: ')
 
-    cl=Cliente(cl_nombre,cl_apellido,cl_numero)
+    cl = Cliente(cl_nombre, cl_apellido, cl_numero)
     return cl
 
 
@@ -64,4 +64,5 @@ def init():
     print(f'El banco le desea un excelente dia {cliente.nombre} {cliente.apellido}')
 
 
+# esto es para iniciar el programa
 init()
