@@ -44,22 +44,22 @@ elif seleccion == 7:
     # cambiar de ruta .chdir('/home/javier/Desktop/')
     # hace directorios .makedirs('/path/')
     print(ruta_base)
-elif seleccion==8:
-    ruta=Path('Cuso Python','Dia 6','practicas.py')
+elif seleccion == 8:
+    ruta = Path('Cuso Python', 'Dia 6', 'practicas.py')
 
-elif seleccion==9:
-    home=Path.home()
-    ruta=Path(home, 'Curso Python','Dia 6','practicas.py')
+elif seleccion == 9:
+    home = Path.home()
+    ruta = Path(home, 'Curso Python', 'Dia 6', 'practicas.py')
 
-elif seleccion==10:
+elif seleccion == 10:
     def abriArchivos(archivoNombre):
-        archivo=open(archivoNombre,'w')
+        archivo = open(archivoNombre, 'w')
         archivo.write('Contenido eliminado')
         archivo.close()
 
-elif seleccion==11:
+elif seleccion == 11:
     def mi_log(logError):
-        archivo=open(logError,'a')
+        archivo = open(logError, 'a')
         archivo.write('Se a registrado unaaccion')
         archivo.close()
 
