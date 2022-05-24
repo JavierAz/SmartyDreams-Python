@@ -4,6 +4,7 @@ from pathlib import Path
 
 # shutil.unpack_archive('Proyecto+Dia+9.zip','/home/javier/PycharmProjects/SmartyDreams-Python/dia9')
 inicio = time.time()
+# los archivos deben de estar en UTF-8 Para que pueda funcionar de manera adecuada
 ruta = os.path.abspath(os.getcwd())
 print(ruta)
 
